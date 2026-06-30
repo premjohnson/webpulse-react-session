@@ -1,0 +1,147 @@
+const movies = [
+ 
+  {
+    "id": 1,
+    "title": "Stranger Things",
+    "type": "Series",
+    "genre": ["Sci-Fi", "Horror", "Drama"],
+    "year": 2016,
+    "rating": 8.7,
+    "duration": "4 Seasons",
+    "maturityRating": "16+",
+    "language": "English",
+    "thumbnail": "https://picsum.photos/300/450?random=1",
+    "banner": "https://picsum.photos/1200/500?random=11",
+    "description": "A group of kids uncover supernatural mysteries in their small town."
+  },
+  {
+    "id": 2,
+    "title": "Money Heist",
+    "type": "Series",
+    "genre": ["Crime", "Thriller", "Drama"],
+    "year": 2017,
+    "rating": 8.2,
+    "duration": "5 Seasons",
+    "maturityRating": "18+",
+    "language": "Spanish",
+    "thumbnail": "https://picsum.photos/300/450?random=2",
+    "banner": "https://picsum.photos/1200/500?random=12",
+    "description": "A criminal mastermind plans the biggest heist in history."
+  },
+  {
+    "id": 3,
+    "title": "The Witcher",
+    "type": "Series",
+    "genre": ["Fantasy", "Adventure", "Action"],
+    "year": 2019,
+    "rating": 8.0,
+    "duration": "3 Seasons",
+    "maturityRating": "18+",
+    "language": "English",
+    "thumbnail": "https://picsum.photos/300/450?random=3",
+    "banner": "https://picsum.photos/1200/500?random=13",
+    "description": "A monster hunter struggles to find his place in a world of magic."
+  },
+  {
+    "id": 4,
+    "title": "Wednesday",
+    "type": "Series",
+    "genre": ["Comedy", "Fantasy", "Mystery"],
+    "year": 2022,
+    "rating": 8.1,
+    "duration": "2 Seasons",
+    "maturityRating": "13+",
+    "language": "English",
+    "thumbnail": "https://picsum.photos/300/450?random=4",
+    "banner": "https://picsum.photos/1200/500?random=14",
+    "description": "Wednesday Addams investigates supernatural mysteries at Nevermore Academy."
+  },
+  {
+    "id": 5,
+    "title": "Squid Game",
+    "type": "Series",
+    "genre": ["Thriller", "Drama", "Survival"],
+    "year": 2021,
+    "rating": 8.0,
+    "duration": "2 Seasons",
+    "maturityRating": "18+",
+    "language": "Korean",
+    "thumbnail": "https://picsum.photos/300/450?random=5",
+    "banner": "https://picsum.photos/1200/500?random=15",
+    "description": "Hundreds of contestants risk their lives in deadly childhood games."
+  },
+  {
+    "id": 6,
+    "title": "Extraction",
+    "type": "Movie",
+    "genre": ["Action", "Thriller"],
+    "year": 2020,
+    "rating": 6.8,
+    "duration": "1h 56m",
+    "maturityRating": "18+",
+    "language": "English",
+    "thumbnail": "https://picsum.photos/300/450?random=6",
+    "banner": "https://picsum.photos/1200/500?random=16",
+    "description": "A fearless mercenary embarks on a dangerous rescue mission."
+  },
+  {
+    "id": 7,
+    "title": "The Gray Man",
+    "type": "Movie",
+    "genre": ["Action", "Spy", "Thriller"],
+    "year": 2022,
+    "rating": 6.5,
+    "duration": "2h 9m",
+    "maturityRating": "16+",
+    "language": "English",
+    "thumbnail": "https://picsum.photos/300/450?random=7",
+    "banner": "https://picsum.photos/1200/500?random=17",
+    "description": "A CIA operative becomes the target of an international manhunt."
+  },
+  {
+    "id": 8,
+    "title": "Bird Box",
+    "type": "Movie",
+    "genre": ["Horror", "Thriller"],
+    "year": 2018,
+    "rating": 6.6,
+    "duration": "2h 4m",
+    "maturityRating": "18+",
+    "language": "English",
+    "thumbnail": "https://picsum.photos/300/450?random=8",
+    "banner": "https://picsum.photos/1200/500?random=18",
+    "description": "A mysterious force drives people to deadly madness unless they stay blindfolded."
+  },
+  {
+    "id": 9,
+    "title": "Avatar: The Way of Water",
+    "type": "Movie",
+    "genre": ["Sci-Fi", "Adventure"],
+    "year": 2022,
+    "rating": 7.7,
+    "duration": "3h 12m",
+    "maturityRating": "13+",
+    "language": "English",
+    "thumbnail": "https://picsum.photos/300/450?random=9",
+    "banner": "https://picsum.photos/1200/500?random=19",
+    "description": "Jake Sully and his family face new threats on Pandora."
+  },
+  {
+    "id": 10,
+    "title": "Interstellar",
+    "type": "Movie",
+    "genre": ["Sci-Fi", "Drama"],
+    "year": 2014,
+    "rating": 8.7,
+    "duration": "2h 49m",
+    "maturityRating": "13+",
+    "language": "English",
+    "thumbnail": "https://picsum.photos/300/450?random=10",
+    "banner": "https://picsum.photos/1200/500?random=20",
+    "description": "A team of astronauts travels through a wormhole to save humanity."
+  }
+
+  // Add the remaining objects...
+];
+
+export default movies;
